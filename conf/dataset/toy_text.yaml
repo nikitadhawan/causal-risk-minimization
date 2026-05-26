@@ -1,0 +1,19 @@
+_target_: src.datasets.toy_text.SyntheticTextDataset
+
+treatment_sizes: [4, 2, 2]      
+n_outcomes: 2
+n: 10000                          
+outcome_intercept: 0.0
+outcome_coef_t: [0.3, 0.2, 0.15]
+outcome_coef_x: [0.4, 0.10, 0.25, 0.15]
+interaction_tt: 0
+interaction_tx: 1.0
+interaction_xx: 0
+interaction_x2t: 1  
+interaction_x3t: 1
+confound_strength: 1.0
+confound_x2: 1.0
+confound_x3: 2.0
+train_frac: 0.6
+val_frac: 0.3
+seed: ${seed}

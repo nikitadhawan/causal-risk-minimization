@@ -1,0 +1,13 @@
+
+_target_: src.models.transformer_outcome.TransformerOutcomeModel
+
+d_model: 8                # Token embedding dimension
+num_heads: 2              # Number of attention heads
+d_hidden: 32              # FFN hidden dimension
+num_blocks: 2             # Number of transformer blocks
+lr: 0.0001                # Learning rate
+epochs: 3000              # Number of training epochs
+batch_size: 256           # Batch size for training
+use_minibatch: false      # Use full batch GD (true for minibatch SGD)
+verbose: false            # Print training progress
+loss_type: ce             # 'mse' (regression) or 'ce' (soft-label cross-entropy)

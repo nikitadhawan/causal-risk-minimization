@@ -1,0 +1,12 @@
+_target_: src.models.hf_sw.HFSWModel
+
+model_name: gpt2
+lr: 1e-5
+epochs: 10
+batch_size: 16
+max_length: 512
+verbose: false
+freeze_base: false
+balance_weight: 1.0
+norm_weight: 1.0
+balance_moments: 1

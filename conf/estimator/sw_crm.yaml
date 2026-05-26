@@ -1,0 +1,7 @@
+defaults:
+  - /model/sw@w_model: linear
+  - /model/apo@apo_model: linear
+
+_target_: src.estimators.sw_crm.SWCRM
+
+verbose: false

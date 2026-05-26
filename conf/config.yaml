@@ -1,0 +1,14 @@
+defaults:
+  - dataset: toy
+  - estimator: ipw_crm
+  - estimator@oi: outcome_imputation
+  - _self_
+
+seed: 42
+
+ablation:
+  n_trials: 20  
+
+output_dir: results
+experiment_name: test
+output_csv: null

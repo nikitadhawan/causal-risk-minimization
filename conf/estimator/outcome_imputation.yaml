@@ -1,0 +1,6 @@
+defaults:
+  - /model/outcome@outcome_model: linear
+
+_target_: src.estimators.outcome_imputation.OutcomeImputation
+
+verbose: false

@@ -1,0 +1,9 @@
+_target_: src.models.hf_apo.HFAPOModel
+
+model_name: gpt2
+lr: 1e-5
+epochs: 10
+batch_size: 16
+max_length: 512
+verbose: false
+freeze_base: false

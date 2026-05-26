@@ -1,0 +1,7 @@
+defaults:
+  - /model/propensity@propensity_model: linear
+  - /model/apo@apo_model: linear
+
+_target_: src.estimators.ipw_crm.IPWCRM
+
+verbose: false

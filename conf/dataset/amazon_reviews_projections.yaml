@@ -1,0 +1,11 @@
+_target_: src.datasets.amazon_reviews_projections.AmazonReviewsProjections
+
+category: Electronics
+n: 10000
+num_bins: 8
+csv_path: src/datasets/data/amazon/${dataset.category}_n10000_x8bin_proj.csv
+train_frac: 0.8
+val_frac: 0.15
+seed: ${seed}
+treatment_type: rating
+treat_dim: low

@@ -1,0 +1,7 @@
+defaults:
+  - /model/outcome@outcome_model: linear
+  - /model/apo@apo_model: linear
+
+_target_: src.estimators.oi_crm.OICRM
+
+verbose: false

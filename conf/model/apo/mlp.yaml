@@ -1,0 +1,9 @@
+_target_: src.models.apo_models.APOModel
+
+model_type: mlp          
+hidden_dim: 64      
+lr: 0.01                
+epochs: 500            
+batch_size: 256         
+use_minibatch: false    
+verbose: false            

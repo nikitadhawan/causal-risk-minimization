@@ -1,0 +1,12 @@
+
+_target_: src.models.propensity_models.LearnedPropensityModel
+
+model_type: linear        # Model architecture type
+lr: 0.01                  # Learning rate
+epochs: 500                # Number of training epochs
+batch_size: 256           # Batch size for training
+use_minibatch: false      # Use full batch GD (true for minibatch SGD)
+verbose: false            # Print training progress
+balance_reg: 0.0          # Weight on balance regularization
+norm_reg: 0.0             # Weight on normalization regularization
+balance_moments: 1        # Number of standardized moments to include in balance loss

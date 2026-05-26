@@ -1,0 +1,11 @@
+_target_: src.models.sw_models.SWModel
+
+model_type: linear
+balance_weight: 1.0
+norm_weight: 1.0
+balance_moments: 1
+lr: 0.01
+epochs: 500
+batch_size: 256
+use_minibatch: false
+verbose: false

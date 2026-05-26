@@ -1,0 +1,13 @@
+
+_target_: src.models.hf_propensity.HFPropensityModel
+
+model_name: gpt2
+lr: 1e-5
+epochs: 10
+batch_size: 16
+max_length: 512
+verbose: false
+freeze_base: false
+balance_reg: 0.0
+norm_reg: 0.0
+balance_moments: 1 
