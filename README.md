@@ -1,7 +1,7 @@
 # CRM: Causal Risk Minimization
 
 This codebase implements the experiments and reproduces the results of [Causal Risk Minimization
-for High-Dimensional Treatments](https://github.com/nikitadhawan/causal-risk-minimization).
+for High-Dimensional Treatments](https://arxiv.org/abs/2605.27281).
 
 CRM performs Average Potential Outcome (APO) estimation for high-dimensional treatments, e.g. text.
 
